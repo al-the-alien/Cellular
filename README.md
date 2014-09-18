@@ -1,7 +1,7 @@
 # Cellular
 
 A clojure library playing around with cellular automata.
-Relies on [Clojure-Lanterna](http://sjl.bitbucket.org/clojure-lanterna/) for
+Relies on [clojure-lanterna](http://sjl.bitbucket.org/clojure-lanterna/) for
 the visualization.
 
 At the moment, it only implements [Langton's Ant](http://en.wikipedia.org/wiki/Langton's_ant).
@@ -10,6 +10,8 @@ At the moment, it only implements [Langton's Ant](http://en.wikipedia.org/wiki/L
 
 Move into the project's home directory, and execute 'lein run'.
 It takes a good 15 seconds to work, so be patient.
+Hit the esc key to stop the automaton and close the screen. You must quit
+manually from the terminal to stop the process completely.
 
 ## FIXME
 Figure out why it takes so long to start.
